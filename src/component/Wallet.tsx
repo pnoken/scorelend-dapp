@@ -1,3 +1,4 @@
+// @ts-ignore
 import {
   ConnectWallet,
   Wallet,
@@ -6,6 +7,7 @@ import {
 } from "@coinbase/onchainkit/wallet";
 import { Address, Avatar, Name, Identity } from "@coinbase/onchainkit/identity";
 import { color } from "@coinbase/onchainkit/theme";
+import "@coinbase/onchainkit/styles.css";
 
 export function WalletComponents() {
   return (
